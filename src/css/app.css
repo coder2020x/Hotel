@@ -1,0 +1,185 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 jul. 2023, 00:19:39
+    Author     : braya
+*/
+@font-face {
+    src: url('Roboto.ttf');
+}
+.root{
+    -fx-border-width: 2px;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-box-shadow:0px,1px,solid#6932a8;
+}
+.footer{
+    -fx-background-color:#2596be;
+}
+.Textfooter{
+    -fx-alignment: center;
+    -fx-text-fill: white ;
+}
+.Plogin{
+    -fx-background-color:white;
+}
+.Tlogin{
+    -fx-alignment: center;
+    -fx-text-fill: blue ;
+    -fx-background-color:white;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-box-shadow:0px,1px,solid#6932a8;
+}
+.Tlogin-bg{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(10,10,0,0.8), 2, 0, 0, 5);
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-cursor: hand;
+}
+.Irecepcion{
+    -fx-background-image: url("/imagenes/res.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+.loginBg{
+    -fx-background-color: rgba(26, 142, 202, 0.14);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 2, 0, 0, 5);
+    -fx-border-width: 2px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-box-shadow:0px,1px,solid#6932a8;
+}
+.loginReg{
+    -fx-background-color:whitesmoke;
+    -fx-border-width: 2px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-box-shadow:0px,1px,solid#6932a8;
+}
+.input{
+    -fx-border-color:whitesmoke;
+    -fx-background-color:white;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-box-shadow:0px,1px,solid#6932a8;
+}
+.inputREg{
+    -fx-border-color:#50beda;
+    -fx-background-color:white;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-box-shadow:0px,1px,solid#6932a8;
+    -fx-margin: 10px;
+}
+.fielREg{
+    -fx-border-color:#50beda;
+    -fx-background-color:white;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-box-shadow:0px,1px,solid#6932a8;
+    -fx-margin: 10px;
+    -fx-text-fill: #bababa ;
+}
+.active{
+    -fx-text-fill: black ;
+}
+.botonLogin{
+    -fx-background-color:#2596be;
+    -fx-border-width: 0px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-box-shadow:0px,1px,solid#6932a8;
+    -fx-text-fill: white ;
+    -fx-cursor: hand;
+}
+.botonLogin:hover {
+    -fx-background-color:#0966a1;
+}
+.Tregistro{
+    -fx-alignment: center;
+}
+.Tituloregistro{
+    -fx-alignment: center;
+    -fx-text-fill: #50beda ;
+    -fx-font-weight:bold;
+}
+.bg-text{
+    -fx-background-color:white;
+    -fx-border-width: 1px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-box-shadow:0px,2px,solid #6932a8;
+}
+.bg-text-text{
+    -fx-alignment: center;
+    -fx-label-padding: 0;
+    -fx-text-overrun: clip;
+    -fx-font-family: 'Roboto Mono';
+    -fx-font-size:35px;
+    -fx-font-weight:bold;
+    -fx-text-fill: #50beda ;
+}
+.bg-text-fecha{
+    -fx-alignment: center;
+    -fx-label-padding: 0;
+    -fx-text-overrun: clip;
+    -fx-font-family: 'Roboto Mono';
+    -fx-font-weight:bold;
+}
+.bg-text-p-a{
+    -fx-alignment: center;
+    -fx-label-padding: 0;
+    -fx-text-overrun: clip;
+    -fx-font-family: 'Roboto Mono';
+    -fx-word-wrap: break-word;
+}
+.bg-text-foot{
+    -fx-background-color:white;
+    -fx-box-shadow:0px,2px,solid #6932a8;
+}
+.tap-pane{
+    -fx-background-color:white;
+}
+.tap{
+    -fx-background-color:whitesmoke;
+    -fx-padding:10;
+    -fx-text-fill:white ;
+}
+.tap-titulo{
+    -fx-background-color:#50beda ;
+    -fx-padding:10;
+    -fx-cursor: hand;
+}
+.tap-view{
+    -fx-background-color:white;
+    -fx-border-width:0;
+}
+.tap-titulo:active,.tap-titulo:focus{
+    -fx-background-color:red ;
+    -fx-padding:10;
+    -fx-cursor: hand;
+}
+.bg-Alert{
+    -fx-background-color:red;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 1);
+}
+.text-Alert{
+    -fx-text-fill:white ;
+    -fx-alignment: center;
+}
+.col{
+    -fx-alignment: center;
+    -fx-font-family: 'Roboto Mono';
+    -fx-font-weight:bold;
+}
